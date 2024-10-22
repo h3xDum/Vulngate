@@ -1,9 +1,10 @@
 #ifndef ENGINE_HPP
+
 #define ENGINE_HPP
 
 // Include all the working parts 
-#include "../include/SceneManager.hpp"
-
+#include "SceneManager.hpp"
+#include "Renderer.hpp"
 class Engine{
 
 
@@ -15,7 +16,7 @@ public:
   
 private:
   SceneManager m_sceneManager;
-
+  Renderer m_renderer;
 };
 
 
